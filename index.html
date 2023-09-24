@@ -5,6 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/jpg" href="Asset/img/home-1.jpg">
 
     <!-- Bootstrap CSS Offline-->
     <link rel="stylesheet" href="Asset/css/style.css">
@@ -21,7 +22,7 @@
             <a class="navbar-brand" href="#">
                 <img src="Asset/img/project-1.jpg" alt="Logo" width="30" height="24"
                     class="d-inline-block align-text-top">
-                <span class="text-warning">Build</span>Con
+                <span class="text-warning">Afrix</span>Up
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -69,7 +70,7 @@
             <div class="carousel-item active">
                 <img src="Asset/img/home-1.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
-                    <h5 class="text-primary">Your Dream House</h5>
+                    <h5 class="text-primary">Your Destination</h5>
                     <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
                 </div>
@@ -85,7 +86,7 @@
             <div class="carousel-item">
                 <img src="Asset/img/home-3.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption">
-                    <h5 class="text-light">True Construction</h5>
+                    <h5 class="text-light">Trully Ours</h5>
                     <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <p><a href="#" class="btn btn-warning mt-3">Learn More</a></p>
                 </div>
@@ -115,8 +116,8 @@
                 </div>
                 <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
                     <div class="about-text">
-                        <h2>We Provide Best Quality <br>Services Ever</h2>
-                        <p>
+                        <h2 class="txt-color">We Provide Best Quality <br>Services Ever</h2>
+                        <p class="txt-color">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, beatae tenetur
                             deleniti unde placeat qui quae quam. Inventore alias unde excepturi! Culpa, minus cum dolore
                             laborum beatae minima impedit corporis temporibus exercitationem nostrum quisquam,
@@ -140,8 +141,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-header text-center pb-5">
-                        <h2>Our Services</h2>
-                        <p>
+                        <h2 class="txt-color">Our Services</h2>
+                        <p class="txt-color">
                             Lorem ipsum dolor sit amet <br> consectetur, adipisicing elit.
                         </p>
 
@@ -203,8 +204,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-header text-center pb-5">
-                        <h2>Our Portfolio</h2>
-                        <p>
+                        <h2 class="txt-color">Our Portfolio</h2>
+                        <p class="txt-color">
                             Lorem ipsum dolor sit amet <br> consectetur, adipisicing elit.
                         </p>
 
@@ -272,8 +273,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-header text-center pb-5">
-                        <h2>Our Portfolio</h2>
-                        <p>
+                        <h2 class="txt-color">Our Portfolio</h2>
+                        <p class="txt-color">
                             Lorem ipsum dolor sit amet <br> consectetur, adipisicing elit.
                         </p>
 
@@ -292,7 +293,7 @@
                             </p>
 
                             <p class="socials">
-                                <i class="bi bi-twitter text-dark mx-l"></i>
+                                <i class="bi bi-twitter te`x+Z*CXt-dark mx-l"></i>
                                 <i class="bi bi-facebook text-dark mx-l"></i>
                                 <i class="bi bi-linkedin text-dark mx-l"></i>
                                 <i class="bi bi-instagram text-dark mx-l"></i>
@@ -364,8 +365,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-header text-center pb-5">
-                        <h2>Contact Us</h2>
-                        <p>
+                        <h2 class="txt-color">Contact Us</h2>
+                        <p class="txt-color">
                             Lorem ipsum dolor sit amet <br> consectetur, adipisicing elit.
                         </p>
 
@@ -396,7 +397,7 @@
                                 </div>
                             </div>
 
-                            <button class="btn col-2 btn-warning btn-lg btn-block mt-3">Send Now</button>
+                            <button class="btn col-2 btn-warning btn-lg btn-block mt-3 form-control">Send Now</button>
                         </div>
                     </form>
                 </div>
@@ -404,21 +405,19 @@
         </div>
     </section>
 
+    
+
+
     <!-- footer section -->
 
     <footer class="bg-dark p-2 text-center">
         <div class="container">
             <p class="text-white">
-                All Right Reserved @AfrixUp
+                All Right Reserved &COPY; <br>@AfrixUp
             </p>
         </div>
     </footer>
 
-
-
-    <!-- Optional JavaScript -->
-    <script src="Asset/bostrape/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
         var themeLight = document.getElementById("light");
@@ -432,29 +431,38 @@
 
         function themeLightFunction() {
             document.getElementById("theme").style.background = "white";
+            document.getElementById("theme").style.black = "white";
             document.getElementById("light").style.display = "none";
             document.getElementById("dark").style.display = "";
 
             // working on background
+
             navbarClass.classList.remove("bg-secondary");
             navbarClass.classList.add("bg-primary");
 
             document.getElementsByClassName("nav-link").style.color = "black";
+            document.getElementsByClassName("txt-color").style.color = "";
 
         }
         function themeDarkFunction() {
-            document.getElementById("theme").style.backgroundImage = "linear-gradient(-75deg, rgba(55, 55, 55, 5), rgba(0, 0, 0, 0.45), rgba(55, 55, 55, 5))";
+            document.getElementById("theme").style.background = "black";    //backgroundImage = "linear-gradient(-75deg, rgba(55, 55, 55, 5), rgba(0, 0, 0, 0.45), rgba(55, 55, 55, 5))";
+            document.getElementById("theme").style.color = "white";    //backgroundImage = "linear-gradient(-75deg, rgba(55, 55, 55, 5), rgba(0, 0, 0, 0.45), rgba(55, 55, 55, 5))";
             document.getElementById("dark").style.display = "none";
             document.getElementById("light").style.display = "";
 
             // working on background
             navbarClass.classList.remove("bg-primary");
             navbarClass.classList.add("bg-secondary");
+          
 
             document.getElementsByClassName("nav-link").style.color = "white";
+            document.getElementsByClassName("txt-color").style.color = "white";
 
         }
     </script>
+    <!-- Optional JavaScript -->
+    <script src="Asset/bostrape/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
